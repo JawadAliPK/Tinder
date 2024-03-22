@@ -11,6 +11,7 @@
 		61E35E1A2BADDE2A002E4DF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E35E192BADDE2A002E4DF8 /* ContentView.swift */; };
 		61E35E1C2BADDE2B002E4DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E35E1B2BADDE2B002E4DF8 /* Assets.xcassets */; };
 		61E35E1F2BADDE2B002E4DF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E35E1E2BADDE2B002E4DF8 /* Preview Assets.xcassets */; };
+		61E35E302BADDF19002E4DF8 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E35E2F2BADDF19002E4DF8 /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		61E35E192BADDE2A002E4DF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		61E35E1B2BADDE2B002E4DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61E35E1E2BADDE2B002E4DF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		61E35E2F2BADDF19002E4DF8 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +53,11 @@
 		61E35E162BADDE2A002E4DF8 /* Tinder */ = {
 			isa = PBXGroup;
 			children = (
-				61E35E172BADDE2A002E4DF8 /* TinderApp.swift */,
+				61E35E292BADDE7A002E4DF8 /* App */,
+				61E35E282BADDE77002E4DF8 /* Core */,
+				61E35E272BADDE74002E4DF8 /* Extensions */,
+				61E35E262BADDE6E002E4DF8 /* Shared */,
+				61E35E252BADDE6B002E4DF8 /* Utils */,
 				61E35E192BADDE2A002E4DF8 /* ContentView.swift */,
 				61E35E1B2BADDE2B002E4DF8 /* Assets.xcassets */,
 				61E35E1D2BADDE2B002E4DF8 /* Preview Content */,
@@ -65,6 +71,83 @@
 				61E35E1E2BADDE2B002E4DF8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		61E35E252BADDE6B002E4DF8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		61E35E262BADDE6E002E4DF8 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		61E35E272BADDE74002E4DF8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		61E35E282BADDE77002E4DF8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				61E35E2B2BADDEC8002E4DF8 /* Cards */,
+				61E35E2E2BADDEE7002E4DF8 /* Messaging */,
+				61E35E2C2BADDECE002E4DF8 /* Profile */,
+				61E35E2D2BADDED3002E4DF8 /* Search */,
+				61E35E2A2BADDEBF002E4DF8 /* TabBar */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		61E35E292BADDE7A002E4DF8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				61E35E172BADDE2A002E4DF8 /* TinderApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		61E35E2A2BADDEBF002E4DF8 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				61E35E2F2BADDF19002E4DF8 /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		61E35E2B2BADDEC8002E4DF8 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		61E35E2C2BADDECE002E4DF8 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		61E35E2D2BADDED3002E4DF8 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		61E35E2E2BADDEE7002E4DF8 /* Messaging */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Messaging;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +222,7 @@
 			files = (
 				61E35E1A2BADDE2A002E4DF8 /* ContentView.swift in Sources */,
 				61E35E182BADDE2A002E4DF8 /* TinderApp.swift in Sources */,
+				61E35E302BADDF19002E4DF8 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

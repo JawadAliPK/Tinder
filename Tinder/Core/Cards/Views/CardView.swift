@@ -23,19 +23,19 @@ struct CardView: View {
             ZStack(alignment: .top) {
                 Image(mockImages[currentImageIndex])
                     .resizable()
-                .scaledToFill()
-                .overlay {
-                    ImageScrollingOverlay(currentImageIndex:
-                                            $currentImageIndex,
-                                          imageCount: mockImages.count)
-                }
+                    .scaledToFill()
+                    .overlay {
+                        ImageScrollingOverlay(currentImageIndex:
+                                                $currentImageIndex,
+                                              imageCount: mockImages.count)
+                    }
                 
                 CardImageIndicatorView(currentImageIndex: currentImageIndex,
                                        imageCount: mockImages.count)
                 
                 SwipeActionIndicatorView(xOffSet: $xOffSet)
             }
-                
+            
             
             UserInfoView()
                 .padding(.horizontal)
@@ -58,17 +58,39 @@ private extension CardView {
         xOffSet = value.translation.width
         degrees = Double(value.translation.width / 25)
     }
+    
     func onDragEnded(_ value: _ChangedGesture<DragGesture>.Value) {
         let width = value.translation.width
         
         if abs(width) <= abs(SizeConstants.screenCutoff) {
-            xOffSet = 0
-            degrees = 0
+            returnToCenter()
+            return
+        }
+        
+        if width >= SizeConstants.screenCutoff {
+            swiftRight()
+        } else {
+            swiftLeft()
         }
     }
 }
 
-
+private extension CardView {
+    func returnToCenter() {
+        xOffSet = 0
+        degrees = 0
+    }
+    
+    func swiftRight() {
+        xOffSet = 500
+        degrees = 12
+    }
+    
+    func swiftLeft() {
+        xOffSet = -500
+        degrees = -12
+    }
+}
 
 #Preview {
     CardView()

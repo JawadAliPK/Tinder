@@ -11,11 +11,11 @@ struct UserInfoView: View {
     var body: some View {
         VStack(alignment: .leading) {
             HStack {
-                Text("Megan")
+                Text("Diesel")
                     .font(.title)
                     .fontWeight(.heavy)
                 
-                Text("37")
+                Text("47")
                     .font(.title)
                     .fontWeight(.semibold)
                 
@@ -30,7 +30,7 @@ struct UserInfoView: View {
                 }
             }
             
-            Text("Actress | Witch")
+            Text("Actor | Boss")
                 .font(.subheadline)
                 .lineLimit(2)
         }

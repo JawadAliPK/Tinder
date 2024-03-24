@@ -33,7 +33,7 @@ struct MockData {
             id: NSUUID().uuidString,
             fullName: "Paul Walker",
             age: 40,
-            profileImageURLs: ["Paul_Walker_2", "Paul_Walker_2"]
+            profileImageURLs: ["Paul_Walker_1", "Paul_Walker_2"]
         ),
     ]
 }

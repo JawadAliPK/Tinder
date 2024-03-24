@@ -10,6 +10,7 @@
 		6126D7922BB05687007A65B7 /* SwipeActionIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6126D7912BB05687007A65B7 /* SwipeActionIndicatorView.swift */; };
 		6126D7952BB05946007A65B7 /* SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6126D7942BB05946007A65B7 /* SizeConstants.swift */; };
 		6126D7972BB06671007A65B7 /* ImageScrollingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6126D7962BB06671007A65B7 /* ImageScrollingOverlay.swift */; };
+		6126D7992BB08010007A65B7 /* CardImageIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6126D7982BB08010007A65B7 /* CardImageIndicatorView.swift */; };
 		61E35E182BADDE2A002E4DF8 /* TinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E35E172BADDE2A002E4DF8 /* TinderApp.swift */; };
 		61E35E1A2BADDE2A002E4DF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E35E192BADDE2A002E4DF8 /* ContentView.swift */; };
 		61E35E1C2BADDE2B002E4DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E35E1B2BADDE2B002E4DF8 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		6126D7912BB05687007A65B7 /* SwipeActionIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionIndicatorView.swift; sourceTree = "<group>"; };
 		6126D7942BB05946007A65B7 /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
 		6126D7962BB06671007A65B7 /* ImageScrollingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollingOverlay.swift; sourceTree = "<group>"; };
+		6126D7982BB08010007A65B7 /* CardImageIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageIndicatorView.swift; sourceTree = "<group>"; };
 		61E35E142BADDE2A002E4DF8 /* Tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61E35E172BADDE2A002E4DF8 /* TinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderApp.swift; sourceTree = "<group>"; };
 		61E35E192BADDE2A002E4DF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				61E35E342BADE699002E4DF8 /* UserInfoView.swift */,
 				6126D7912BB05687007A65B7 /* SwipeActionIndicatorView.swift */,
 				6126D7962BB06671007A65B7 /* ImageScrollingOverlay.swift */,
+				6126D7982BB08010007A65B7 /* CardImageIndicatorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				61E35E1A2BADDE2A002E4DF8 /* ContentView.swift in Sources */,
 				6126D7922BB05687007A65B7 /* SwipeActionIndicatorView.swift in Sources */,
 				61E35E182BADDE2A002E4DF8 /* TinderApp.swift in Sources */,
+				6126D7992BB08010007A65B7 /* CardImageIndicatorView.swift in Sources */,
 				61E35E332BADE345002E4DF8 /* CardView.swift in Sources */,
 				6126D7952BB05946007A65B7 /* SizeConstants.swift in Sources */,
 				61E35E302BADDF19002E4DF8 /* MainTabView.swift in Sources */,
